@@ -1,0 +1,128 @@
+body {
+	background-color: #515050;
+	color: #f0f0f0;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #222;
+	color: #f0f0f0;
+	padding: 20px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	color: #f0f0f0;
+	font-size: 20px;
+	text-decoration: none;
+	transition: color 0.3s;
+}
+
+nav a:hover {
+	color: #ccc;
+}
+
+main {
+	max-width: 800px;
+	margin: 50px auto;
+}
+
+section {
+	margin-bottom: 50px;
+}
+
+h1 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.card {
+	display: flex;
+	display: block;
+	align-items: center;
+	background-color: #504848;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	padding: 20px;
+}
+
+.card img {
+	border-radius: 50%;
+	max-width: 150px;
+	margin-right: 20px;
+}
+
+.card h3 {
+	font-size: 24px;
+	margin-bottom: 5px;
+}
+
+.card p {
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.redes {
+	display: flex;
+	justify-content: center;
+}
+
+.redes a {
+	color: #090505;
+	font-size: 24px;
+	margin: 0 10px;
+	text-decoration: none;
+	transition: color 0.3s;
+}
+
+.redes a:hover {
+	color: #080505;
+}
+
+footer {
+	background-color: #222;
+	color: #f0f0f0;
+	padding: 20px;
+}
+
+footer p {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+footer .redes {
+	display: flex;
+	justify-content: center;
+}
+
+footer .redes a {
+	color: #050404;
+	font-size: 24px;
+	margin: 0 10px;
+	text-decoration: none;
+	transition: color 0.3s;
+}
+
+footer .redes a:hover {
+	color: #000000;
+}
